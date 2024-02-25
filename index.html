@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatriXis Online cyber</title>
+    <link rel="icon" href="images/favicon.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="hd">MatriXis</h1>
+    <div class="header">
+        <div class="image">
+            <img src="images/favicon.jpeg" alt="">
+        </div>
+        <p>Accelerate your success with our online cyber  where innovation meets convenience. Navigate the digital highway with ease, explore endless possibilities, and ride the wave of seamless transactions. Your journey to success starts here, where every click propels you towards your goals. Fast, reliable, and always open for business join the future of commerce with us.</p>
+    </div>
+    <h1>Hello Friend</h1>
+        <p>Welcome to <b>MatriXis Online Cyber</b></p>
+    <h2>Services Offered</h2>
+    <div class="container">
+        <div class="card">
+            <img src="images/Screenshot_20240225_110838_X.jpg" alt="image">
+            <div class="txt">
+                <h3>Kuccps application</h3>
+                <!--<table>
+                    <tr>
+                        <td>Days &ensp;</td>
+                        <td>Hours&ensp;</td>
+                        <td>Minutes &ensp;</td>
+                        <td>Seconds &ensp;</td>
+                    </tr>
+                    <tr>
+                        <td id="days">00 &ensp;</td>
+                        <td id="hours">00&ensp;</td>
+                        <td id="minutes">00 &ensp;</td>
+                        <td id="seconds">00 &ensp;</td>
+                    </tr>-->
+                </table>
+                <a href="https://wa.me/message/O2IA4QXBKLQUO1"><button class="btn">Get assistance applying kuucps</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="txt">
+                <h3>Helb application</h3>
+                <p class="alert">Not yet opened,will notify when opened!!</p>
+                <button onclick=displayalert() class="btn">Get assistance applying helb</button>
+            </div>
+            <img src="images/thGWACLiwhAGCPG-800x450-noPad.jpg" alt="image">
+        </div>
+        <div class="card">
+            <img src="images/How-To-Apply-For-KRA-PIN-Online-2.jpg" alt="image">
+            <div class="txt">
+                <h3>Kra pin registration</h3>
+                <a href="https://wa.me/message/O2IA4QXBKLQUO1"><button class="btn">Get assistance applyng KRA PIN</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="txt">
+                <h3>Filling nill Returns</h3>
+                <a href="https://wa.me/message/O2IA4QXBKLQUO1"><button class="btn">Get assistance Filling nill Return</button></a>
+            </div>
+            <img src="images/Returns.jpg" alt="image">
+        </div>
+        <div class="card">
+            <img src="images/happy-asian-woman-in-his-graduation-day.jpg" alt="image">
+            <div class="txt">
+                <h3>universities admission letters download</h3>
+                <p class="alert">Not yet opened,will notify when opened</p>
+                <a href="https://wa.me/message/O2IA4QXBKLQUO1"><button class="btn">Get assistance Downloading addmission letter</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <h2>Contact us</h2>
+        <ul>
+            <li>Call now: <a href="tel:+254110528047"> 0769320328</a></li>
+            <li>Whatsapp: <a href="https://wa.me/message/O2IA4QXBKLQUO1">0769320328</a></li>
+            <li>Email: <a href="mailto:alexokello743@gmail.com">alexokello743@gmail.com</a></li>
+        </ul>
+        <hr>
+        <br>
+        <br>
+        <p>&lt&lt&lt&copy2024-Designed by Alex&gt&gt&gt</p>
+    </div>
+    <script>
+        var x=new Date();
+        var y=x.getTime();
+        var total=y+(2*24*3600000);
+        function count(){
+            var now=new Date();
+            var currentTime=now.getTime();
+            var diff=total-currentTime;
+            var s=Math.floor(diff/1000);
+            var m=Math.floor(s/60);
+            var h=Math.floor(m/60);
+            var d=Math.floor(h/24);
+
+        
+             h=h%24;
+             m=m%60;
+             s=s%60;
+     
+             document.getElementById("days").innerHTML=d;
+             document.getElementById("hours").innerHTML=h;
+             document.getElementById("minutes").innerHTML=m;
+             document.getElementById("seconds").innerHTML=s;
+
+             setTimeout(count,500);
+        }
+        count();
+        function displayalert(){
+            const alert=document.querySelector('.alert')
+            alert.style.display='flex'
+        }
+    </script>
+</body>
+</html>
