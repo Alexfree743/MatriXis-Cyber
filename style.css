@@ -81,7 +81,7 @@ h3{
     background-color: black;
     margin-top: 30px;
     width: 100%;
-    height: 150px;
+    height: 200px;
     color: white;
     text-align: center;
     font-size: 10px;
@@ -96,8 +96,9 @@ ul{
 }
 ul li{
     margin-top: 5px;
-    height: 20px;
+    height: 35px;
 }
 ul li a{
+    font-size: 15px;
     color: white;
 }
